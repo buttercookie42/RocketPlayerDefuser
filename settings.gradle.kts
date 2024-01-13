@@ -14,6 +14,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Rocket Player Defuser"
+rootProject.name = "Rocket Player Timebomb Defuser"
 include(":app")
  
