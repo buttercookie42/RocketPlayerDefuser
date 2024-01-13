@@ -38,6 +38,7 @@ public class RocketPlayerDefuser implements IXposedHookLoadPackage {
                 "showDialog", int.class, Bundle.class, new XC_MethodHook() {
                     @Override
                     protected void beforeHookedMethod(MethodHookParam param) throws Throwable {
+                        // Dialog IDs are per-activity, so make sure we're in the right activity.
                         if (!(param.thisObject.getClass() == targetClass)) {
                             return;
                         }
