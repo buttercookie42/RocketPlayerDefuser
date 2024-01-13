@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Rocket Player Defuser</string>
+    <string name="xposed_desc">Disable Rocket Player\'s "Expired version" popup</string>
+</resources>
